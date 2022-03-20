@@ -1,5 +1,5 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import { extractorSvelte } from 'unocss';
 import unocss from 'unocss/vite';
 import presetUno from '@unocss/preset-uno';
@@ -7,7 +7,7 @@ import presetUno from '@unocss/preset-uno';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({ out: 'build' }),
 		vite: () => ({
 			plugins: [
 				unocss({
