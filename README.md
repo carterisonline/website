@@ -10,6 +10,10 @@ MAM, or the Molecular Application Manager is a [fish](https://fishshell.com) scr
 
 A generic page used when a service is unavailable or down.
 
+## power-compiler/
+
+An online, cross-platform C compiler using WASM.
+
 ## www/
 
 This contains the code used when navigating to <https://carteris.online> or <https://www.carteris.online>.

@@ -1,7 +1,7 @@
 <script>
 	import ProjectCard from '/src/components/ProjectCard.svelte';
 	import 'uno.css';
-	import '/src/reset.css';
+	import '../../../common/reset.css';
 </script>
 
 <div class="bg-slate-900 text-slate-400 w-screen h-screen font-sans">

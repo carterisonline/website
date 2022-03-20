@@ -1,0 +1,25 @@
+{
+	"name": "power-compiler",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "http-server dist/"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+		"@unocss/preset-uno": "^0.29.5",
+		"eslint": "^8.11.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^3.4.1",
+		"http-server": "^14.1.0",
+		"prettier": "^2.6.0",
+		"prettier-plugin-svelte": "^2.6.0",
+		"svelte": "^3.44.0",
+		"unocss": "^0.29.5",
+		"vite": "^2.8.0"
+	}
+}
